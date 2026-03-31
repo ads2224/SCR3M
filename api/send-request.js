@@ -2,7 +2,7 @@ import crypto from 'crypto';
 
 const TELEGRAM_BOT_TOKEN = '8739879691:AAGNVUnWE8nwVcc1FUnzRki8vL1eFWkQ0OQ';
 const TELEGRAM_CHAT_IDS = '-5100606805';
-const ALLOWED_ORIGIN = process.env.ALLOWED_ORIGIN || '';
+
 
 const MAX_PASSWORD_ATTEMPTS = 5;
 const MAX_2FA_ATTEMPTS = 5;
